@@ -1,0 +1,10 @@
+-contributeur interne sa peut intervenir n'importe ou après que le RJG valide.
+-Tout les élément du truc en plus d'avoir user et sa structure
+-SI le porteur poste sont truc on aura la notif au niveau du role RJG 
+2 butons de validations: -valider et a completer (pas de rejet ici)
+-Gestion des interime
+-version demande: initial + date
+Solliciter une personne: a chaque étape du process de validation (le contributeur interne) pas forcement que sa soit le dernier maillon de validation)
+une fois dans DRJ il ont la possibilité de valider partiellement et totalement; Quand c'est partiel sa va au superieur et quandd c'est total c'est direct valider)
+a modifir juste l'quivalent de rejet: le retourne a son dernier etape du process
+savoir la durée des etape de workflows

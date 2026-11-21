@@ -1,0 +1,59 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    
+    --color-orange-primary: #ff5500;
+    --color-orange-dark: #cc4400;
+}
+
+/* Custom styles for proper rendering */
+@layer base {
+    svg {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+@layer utilities {
+    .icon-sm {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .icon-md {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .icon-lg {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .icon-xl {
+        width: 48px;
+        height: 48px;
+    }
+    
+    .sidebar-modern {
+        background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        backdrop-filter: blur(10px);
+    }
+    
+    .nav-item-active {
+        background: linear-gradient(90deg, rgba(255, 85, 0, 0.15) 0%, rgba(255, 85, 0, 0.05) 100%);
+        border-left: 3px solid #ff5500;
+    }
+    
+    .nav-item-hover:hover {
+        background: rgba(255, 255, 255, 0.05);
+        transform: translateX(4px);
+    }
+}
